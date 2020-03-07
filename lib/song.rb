@@ -45,5 +45,9 @@ class Song
       artist_count += log10
     else 
       artist_count[artist] = 1 
+    end
+  end
+  artist_count
+end 
     
     
